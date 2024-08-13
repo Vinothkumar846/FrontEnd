@@ -1,0 +1,78 @@
+.Grid{
+    display:flex;
+    flex-direction: row;
+    height: 97vh;
+}
+.Left{
+    background-image: url("Logo.3.avif");
+    width: 50%;
+    background-size: cover;
+}
+.Right{
+    width: 50%;
+    position: relative;
+
+}
+
+.Right1{
+    display: grid;
+    flex-direction: column;
+    margin: 120px;
+}
+.Email{
+    padding: 10px;
+    margin:0px  80px;
+    border-radius: 4px;
+    border-color: darkgray;
+    border: 1px solid gray;
+}
+.Option{
+    padding: 10px;
+    margin:0px  80px;
+    border-radius: 4px;
+    color: gray;
+
+}
+button{
+    color: white;
+    justify-content: center;
+    padding: 12px;
+    background-color: #CE0002;
+    margin:0px  80px;
+    border-radius: 5px;
+    border: #CE0002;
+
+}
+.Head{
+    margin: auto;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+}
+img{
+    align-self: center;
+   position: absolute;
+    left: -50px;
+}
+a{
+    color:gray;
+    text-decoration: none;
+   
+}
+
+p:nth-child(2){
+    position: absolute;
+    left:510px;
+    bottom: 10px;
+}
+@media screen and (max-width: 600px)  {
+    .Right {
+      width: 100%;
+
+    }
+    .Left {
+        display: none;
+      }
+  }
+
+  
