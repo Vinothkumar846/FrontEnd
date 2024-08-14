@@ -4,9 +4,26 @@
     height: 97vh;
 }
 .Left{
-    background-image: url("Logo.3.avif");
     width: 50%;
+    float: left;
+    background-image: url("Logo.3.avif");
     background-size: cover;
+    animation: vinoth 9s infinite;
+}
+@keyframes vinoth {
+0%{
+    background-image: url("Logo.3.avif");
+    left: -300%;
+}
+35%{
+    background-image: url("alone.jpg");
+    left: -200%;
+
+} 
+79%{
+    background-image: url("Standing-alone.jpg");
+    left: -0%;
+}  
 }
 .Right{
     width: 50%;
